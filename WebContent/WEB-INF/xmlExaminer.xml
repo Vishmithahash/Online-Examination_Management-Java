@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+version="3.1">
+
+
+
+  <servlet>
+    <servlet-name>insertServletExaminer</servlet-name>
+    <servlet-class>ExaminerCrud./insertServletExaminer</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+    <servlet-name>insertServletExaminer</servlet-name>
+    <url-pattern>/insertServletExaminer</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>GetAllServletExaminer</servlet-name>
+    <servlet-class>ExaminerCrud.GetAllServletExaminer</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+    <servlet-name>GetAllServletExaminer</servlet-name>
+    <url-pattern>/GetAllServletExaminer</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>UpdateServletExaminer</servlet-name>
+    <servlet-class>ExaminerCrud.UpdateServletExaminer</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+    <servlet-name>UpdateServletExaminer</servlet-name>
+    <url-pattern>/UpdateServletExaminer</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>DeleteServletExaminer</servlet-name>
+    <servlet-class>ExaminerCrud.DeleteServletExaminer</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+    <servlet-name>DeleteServletExaminer</servlet-name>
+    <url-pattern>/DeleteServletExaminer</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+ </web-app>
+  

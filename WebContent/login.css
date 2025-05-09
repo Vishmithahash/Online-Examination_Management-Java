@@ -1,0 +1,64 @@
+.container {
+    background-color: rgba(75, 0, 130, 0.7); /* Adjust opacity as desired */
+    padding: 40px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+form {
+	height: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.checkbox a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+p {
+    margin-top: 10px;
+}
+
+p a {
+    color: #fff;
+    text-decoration: none;
+}

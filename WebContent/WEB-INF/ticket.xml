@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+     <servlet>
+     	<servlet-name>StudentInsertServlet</servlet-name>
+     	<servlet-class>Ticket.StudentInsertServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>StudentInsertServlet</servlet-name>
+     	<url-pattern>/StudentInsertServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>StudentAllServlet</servlet-name>
+     	<servlet-class>Ticket.StudentAllServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>StudentAllServlet</servlet-name>
+     	<url-pattern>/StudentAllServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     <servlet>
+     	<servlet-name>StudentUpdateServlet</servlet-name>
+     	<servlet-class>Ticket.StudentUpdateServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>StudentUpdateServlet</servlet-name>
+     	<url-pattern>/StudentUpdateServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     <servlet>
+     	<servlet-name>StudentDeleteServlet</servlet-name>
+     	<servlet-class>Ticket.StudentDeleteServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>StudentDeleteServlet</servlet-name>
+     	<url-pattern>/StudentDeleteServlet</url-pattern>
+     </servlet-mapping>
+     
+
+</web-app>

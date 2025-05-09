@@ -1,0 +1,44 @@
+/* Header styling */
+header {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.user-account a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Navigation styling */
+nav.categories {
+    background-color: darkblue;
+    padding: 10px 0;
+}
+
+nav.categories a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav.categories a:hover {
+    text-decoration: underline;
+}
